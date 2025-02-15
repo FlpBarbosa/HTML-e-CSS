@@ -35,6 +35,13 @@ body {
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
+    padding: 5px 5px;
+}
+
+.cabecalho__menu__link:hover {
+    background-color: var(--cor-hover);
 }
 
 .apresentacao {
